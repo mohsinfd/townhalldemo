@@ -500,6 +500,32 @@ body {
 }
 
 /* ==========================================
+   SLIDE 6: Conclusion
+   ========================================== */
+.conclusion-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conclusion-logo {
+    height: 100px;
+    width: auto;
+    margin-bottom: 48px;
+}
+
+.conclusion-headline {
+    margin-bottom: 24px;
+}
+
+.conclusion-tagline {
+    font-size: var(--subline-size);
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* ==========================================
    Responsive
    ========================================== */
 @media (max-width: 1024px) {
