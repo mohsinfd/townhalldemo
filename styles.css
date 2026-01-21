@@ -305,10 +305,6 @@ body {
     color: var(--text-primary) !important;
 }
 
-.pillar-live strong {
-    color: var(--text-primary);
-}
-
 .pillar-uat {
     color: var(--text-muted) !important;
     font-style: italic;
